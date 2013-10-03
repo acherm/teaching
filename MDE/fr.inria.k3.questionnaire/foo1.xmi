@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<questionnaire:PollSystem xmi:version="2.0" 
+xmlns:xmi="http://www.omg.org/XMI" 
+xmlns:questionnaire="http://www.xtext.org/example/mydsl/Questionnaire">
+  <polls name="poll1">
+    <questions text="What is A ?">
+      <options id="b" text="B"/>
+      <options id="c" text="C"/>
+      <options id="d" text="D"/>
+    </questions>
+  </polls>
+  <polls name="poll2">
+    <questions text="What is D ?">
+      <options id="e" text="E"/>
+      <options id="f" text="F"/>
+    </questions>
+  </polls>
+</questionnaire:PollSystem>

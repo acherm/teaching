@@ -1,0 +1,13 @@
+grammar org.xtext.example.mydsl.Questionnaire with org.eclipse.xtext.common.Terminals
+
+generate questionnaire "http://www.xtext.org/example/mydsl/Questionnaire"
+
+PollSystem:
+	'PollSystem' '{' polls+=Poll+ '}';
+	
+Poll:
+	'Poll' name=ID '{' questions+=Question+ '}';
+	
+Question : 'Question' ID? '{' text=STRING 'options' options+=Option+ '}';
+	
+Option : id=ID ':' text=STRING ;
