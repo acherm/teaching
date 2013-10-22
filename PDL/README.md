@@ -6,7 +6,7 @@
   
 ## Rendu 
 
- ``Les dates de rendu sont strictes``:
+ **Les dates de rendu sont strictes**:
  
  * Livrable d'analyse (A1)
   * 22 novembre, 20h
