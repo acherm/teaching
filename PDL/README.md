@@ -38,8 +38,6 @@ La notation est sur 20 (5 points pour A1, 5 points pour B1, 5 points pour C1, 5 
 La note du projet est la seule note de ce module (i.e., il n'y a pas de partiel).
 Les rendus s'effectueront par un email du responsable du groupe. 
 
-**Il est également possible de rendre une deuxième version de C1 le 10 janvier 2014 avant 11h. 
-2 points de "bonus" seront attribués en fonction de la qualité du code, de la conformité au cahier des charges, ainsi que de la différence avec la version du 20 décembre
-**
+**Il est également possible de rendre une deuxième version de C1 le 10 janvier 2014 avant 11h. 2 points de "bonus" seront attribués en fonction de la qualité du code, de la conformité au cahier des charges, ainsi que de la différence avec la version du 20 décembre**
    
 
