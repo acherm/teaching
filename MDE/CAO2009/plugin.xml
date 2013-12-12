@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated fsm09 -->
+      <package
+            uri="http://fsm09/1.0"
+            class="fsm09.Fsm09Package"
+            genModel="fsm09.genmodel"/>
+   </extension>
+
+</plugin>

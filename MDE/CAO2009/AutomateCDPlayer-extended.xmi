@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fsm09:Automate xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fsm09="http://fsm09/1.0" xsi:schemaLocation="http://fsm09/1.0 fsm09.ecore" name="CDPlayer-exercice2-extended">
+  <states xsi:type="fsm09:SuperState" name="Playing">
+    <outgoingTransitions target="//@states.1" etiquette="stop"/>
+    <children xsi:type="fsm09:Starter" name="initPlaying">
+      <outgoingTransitions target="//@states.0/@children.2" etiquette=""/>
+    </children>
+    <children xsi:type="fsm09:IndividualState" incomingTransitions="//@states.0/@children.2/@outgoingTransitions.0" name="Pause">
+      <outgoingTransitions target="//@states.0/@children.2" etiquette="play"/>
+      <outgoingTransitions target="//@states.1" etiquette="after(10min)"/>
+    </children>
+    <children xsi:type="fsm09:IndividualState" incomingTransitions="//@states.0/@children.0/@outgoingTransitions.0 //@states.0/@children.1/@outgoingTransitions.0" name="Play">
+      <outgoingTransitions target="//@states.0/@children.1" etiquette="play / pause()"/>
+      <actions name="do() / playtrack()"/>
+    </children>
+  </states>
+  <states xsi:type="fsm09:IndividualState" incomingTransitions="//@states.0/@children.1/@outgoingTransitions.1 //@states.0/@outgoingTransitions.0" name="Stop">
+    <actions name="entry / stop()"/>
+  </states>
+</fsm09:Automate>

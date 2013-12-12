@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="xtend-gen"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CAO2009"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CAO2009.edit"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CAO2009.editor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CAO2009.tests"/>
+	<classpathentry kind="lib" path="/Users/macher1/Documents/RESEARCH/TEACHING/IDM 2013 - 2014/IDM_TP1/TP1_Solution/resources/guava-15.0.jar"/>
+	<classpathentry kind="lib" path="/Users/macher1/Documents/RESEARCH/TEACHING/IDM 2013 - 2014/IDM_TP1/TP1_Solution/resources/org.eclipse.emf.common-2.8.0-v20120911-0500.jar"/>
+	<classpathentry kind="lib" path="/Users/macher1/Documents/RESEARCH/TEACHING/IDM 2013 - 2014/IDM_TP1/TP1_Solution/resources/org.eclipse.emf.ecore-2.8.0-v20120911-0500.jar"/>
+	<classpathentry kind="lib" path="/Users/macher1/Documents/RESEARCH/TEACHING/IDM 2013 - 2014/IDM_TP1/TP1_Solution/resources/org.eclipse.emf.ecore.xmi-2.8.0-v20120911-0500.jar"/>
+	<classpathentry kind="lib" path="/Users/macher1/Documents/RESEARCH/TEACHING/IDM 2013 - 2014/IDM_TP1/TP1_Solution/resources/org.eclipse.xtend.lib-2.4.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/Users/macher1/Documents/RESEARCH/TEACHING/IDM 2013 - 2014/IDM_TP1/TP1_Solution/resources/org.eclipse.xtext.xbase.lib-2.4.3-SNAPSHOT.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AspectK3"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fsm09:Automate
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:fsm09="http://fsm09/1.0"
+    xsi:schemaLocation="http://fsm09/1.0 fsm09.ecore"
+    name="Foo1">
+  <states xsi:type="fsm09:Starter"
+      name="StartingP"/>
+</fsm09:Automate>
